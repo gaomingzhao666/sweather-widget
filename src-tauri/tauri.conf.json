@@ -13,7 +13,13 @@
 			{
 				"title": "sweather-widget",
 				"width": 800,
-				"height": 600
+				"height": 600,
+				"closable": false,
+				"hiddenTitle": true,
+				"maximizable": false,
+				"minimizable": false,
+				"fullscreen": false,
+				"decorations": false
 			}
 		],
 		"security": {
