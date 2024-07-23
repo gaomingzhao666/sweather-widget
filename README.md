@@ -4,14 +4,20 @@
 [![MIT License][license-shield]][license-url]
 [![Release][release-shield]][release-url]
 
+> EN: I am preparing JLPT(Japanese Language Proficiency Test) N1 now, this project is pretty lagging progress on development
+
+> JA: 日本語能力試験 N1 勉强中だから、このプロジェクトはものすごく低いペースで進めているなのですよ
+
+> CN: 学日语 N1 中，此项目可能进度极慢
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/gaomingzhao666/Sweather">
+  <a href="https://github.com/gaomingzhao666/sweather-widget">
     <img src="/static/favicon.ico" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Sweather</h3>
+  <h3 align="center">sweather-widget</h3>
 
   <p align="center">
     🌤 Lightweight weather widget made by Svelte & Electron for desktop devices 🌤
@@ -32,6 +38,7 @@
     <li><a href="#introduction-of-project">Introduction of Project</a></li>
     <li><a href="#build-with">Build with</a></li>
     <li><a href="#Runtime-requirement">Runtime Requirement</a></li>
+    <li><a href="#os-requirement">OS Requirement</a></li>
     <li><a href="#how-to-run-this-application">How to run this application</a></li>
     <li><a href="#contributor">Contributor</a></li>
     <li><a href="#license">LICENSE</a></li>
@@ -50,7 +57,7 @@
 
 > The image shown here is the index of this widget, [click here](https://github.com/gaomingzhao666/nano-portfolio/tree/main/SCREENSHOT) to see more detailed screenshot for this project.
 
-Sweather is a lightweight and less dependencies widget that compatible with desktop OSs, which is made by Svelte and Electron and almost everything is made manually. The weather data-source are from [Free Weather API](https://www.weatherapi.com/)
+sweather-widget is a lightweight and less dependencies widget that compatible with desktop OSs, which is made by Svelte and Electron and almost everything is made manually. The weather data-source are from [Free Weather API](https://www.weatherapi.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +97,17 @@ By using Svelte and Tauri we can take the following advantages over other cross-
 
 ## Runtime Requirement
 
-- NodeJS LTS 20+
+- NodeJS LTS 22
+- Rust 1.80
+- WebView 2
+- Microsoft C++ build tools
+
+> See [Detailed Prerequisites](https://v2.tauri.app/start/prerequisites/) to get more about the dependencies of this project
+
+## OS Requirement
+
+- Windows 10 above (preferable Windows 11 24H2 above)
+- MacOS Big Sur above
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,8 +116,8 @@ By using Svelte and Tauri we can take the following advantages over other cross-
 ### Clone this project
 
 ```sh
-$ https://github.com/gaomingzhao666/Sweather.git # clone the project
-$ cd Sweather
+$ https://github.com/gaomingzhao666/sweather-widget.git # clone the project
+$ cd sweather-widget
 $ pnpm install # install dependencies that this project needs
 $ pnpm dev # run
 ```
@@ -131,13 +148,13 @@ The project developed by gaomingzhao666@Nano
 
 ## LICENSE
 
-[MIT License](https://github.com/gaomingzhao666/Sweather/blob/main/LICENSE)
+[MIT License](https://github.com/gaomingzhao666/sweather-widget/blob/main/LICENSE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[stars-shield]: https://img.shields.io/github/stars/gaomingzhao666/Sweather?style=for-the-badge
-[stars-url]: https://github.com/gaomingzhao666/Sweather/stargazers
+[stars-shield]: https://img.shields.io/github/stars/gaomingzhao666/sweather-widget?style=for-the-badge
+[stars-url]: https://github.com/gaomingzhao666/sweather-widget/stargazers
 [license-shield]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
-[license-url]: https://github.com/gaomingzhao666/Sweather/blob/main/LICENSE
-[release-shield]: https://img.shields.io/github/v/release/gaomingzhao666/Sweather?style=for-the-badge
-[release-url]: https://github.com/gaomingzhao666/Sweather/releases
+[license-url]: https://github.com/gaomingzhao666/sweather-widget/blob/main/LICENSE
+[release-shield]: https://img.shields.io/github/v/release/gaomingzhao666/sweather-widget?style=for-the-badge
+[release-url]: https://github.com/gaomingzhao666/sweather-widget/releases
